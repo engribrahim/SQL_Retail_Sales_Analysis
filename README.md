@@ -3,7 +3,6 @@ DATA ANALYSIS FOR RETAIL SHOP IN SQL
 
 Import Retail Sales dataset
 
-
 select * from [SQL - Retail Sales Analysis_utf ]
 
 select count(*) from [SQL - Retail Sales Analysis_utf ]
@@ -178,10 +177,6 @@ SELECT
     COUNT(DISTINCT customer_id) AS unique_customers
 FROM [SQL - Retail Sales Analysis_utf]
 GROUP BY category;
-
-
-
-
 
 10-Q write an sql query to create each shift and number of orders (Example Morning <=12,afternoon between 12 & 17, evening >17)
 ---select * FROM [SQL - Retail Sales Analysis_utf]
